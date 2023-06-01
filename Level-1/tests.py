@@ -3,7 +3,7 @@ import code as c
 
 class TestOnlineStore(unittest.TestCase):
 
-    token = l7uvkxvdrdkkb4f5y3x4p4njhqkdjuiyu56koprcvix663p4dnca
+    token = "l7uvkxvdrdkkb4f5y3x4p4njhqkdjuiyu56koprcvix663p4dnca"
     # Example 1 - shows a valid and successful payment for a tv
     def test_1(self):
         tv = c.Item(type='product', description='tv', amount=1000.00, quantity=1)
